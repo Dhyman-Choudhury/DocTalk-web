@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 import { NavLink } from 'react-router';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaInstagramSquare, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -22,8 +22,8 @@ const Footer = () => {
                     </ul>
                 </div>
             </aside>
-            <hr className='w-[70%] mx-auto border-gray-300' />
-            <nav>
+            <hr className='w-[70%] mx-auto border-gray-400' />
+            <nav className='flex gap-5'>
                 <a
                     href="https://www.facebook.com"
                     target="_blank"
@@ -31,7 +31,28 @@ const Footer = () => {
                 >
                     <FaFacebook size={30} />
                 </a>
+                <a 
+                href='https://www.linkedin.com'
+                target='_blank'
+                className="text-blue-600 "
+                ><FaLinkedin size={30} /></a>
+                  
+                <a 
+                href='https://www.instagram.com/accounts/login/?hl=en'
+                target='_blank'
 
+                className='text-pink-600 '>
+                   <FaInstagramSquare size={30}/>
+                </a>  
+                <a>
+                  
+                </a>
+                <a 
+                  href='https://www.youtube.com/'
+                  target='_blank'
+                  className='text-red-600'>
+                  <FaYoutube size={30} />
+                </a>
             </nav>
         </footer>
     );

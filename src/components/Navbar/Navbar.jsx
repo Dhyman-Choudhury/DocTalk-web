@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
 
-                <a className="btn rounded-full bg-blue-700 text-white">Emergency</a>
+                <NavLink className="btn rounded-full bg-blue-700 text-white">Emergency</NavLink>
             </div>
         </div>
     );
