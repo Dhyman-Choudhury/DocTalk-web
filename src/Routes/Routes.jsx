@@ -7,6 +7,7 @@ import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
+import Blogs from '../pages/Blogs/Blogs';
   
 
 export const router = createBrowserRouter([
@@ -26,6 +27,12 @@ export const router = createBrowserRouter([
         {
             path:'/about',
             Component: About
+        },
+        {
+          path:'/blogs',
+          Component:Blogs,
+          hydrateFallbackElement:<span className="loading loading-bars loading-xl"></span>,
+            loader: () =>fetch('../qsnAns.json')
         }
     ]
     },

@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagramSquare, FaLinkedin, FaYoutube } from 'react-icon
 
 const Footer = () => {
     return (
-        <footer className="footer footer-horizontal footer-center bg-white  p-10">
+        <footer className="footer footer-horizontal footer-center bg-white  p-5">
             <aside>
                 <div className="grid grid-flow-col gap-4">
                     <div className='flex  items-center gap-2'>

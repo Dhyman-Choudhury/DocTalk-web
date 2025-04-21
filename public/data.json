@@ -1,111 +1,122 @@
 [
-    {
-      "id": "doc001",
-      "name": "Dr. Ayesha Julekha",
-      "education": "MBBS (1984)",
-      "specialty": "General Medicine",
-      "experience": "40 years",
-      "registration_number": "1715171009",
-      "image": "https://i.ibb.co/nNc0pw97/doctor1.jpg"
-    },
-    {
-      "id": "doc002",
-      "name": "Dr. Md. Hassan Jamil Hedyatullah",
-      "education": "MBBS, MS (Orthopedics)",
-      "specialty": "Orthopedic Surgery",
-      "experience": "25 years",
-      "registration_number": "1711014088",
-      "image": "https://i.ibb.co/jZ5xYKg7/doctor2.jpg"
-    },
-    {
-      "id": "doc003",
-      "name": "Dr. Nazir Ahmed",
-      "education": "MBBS",
-      "specialty": "Emergency Medicine",
-      "experience": "15 years",
-      "registration_number": "1712023521",
-      "image": "https://i.ibb.co/wNj0PV7Y/doctor3.jpg"
-    },
-    {
-      "id": "doc004",
-      "name": "Dr. Md. Nadeem Sarkar",
-      "education": "MBBS (2004)",
-      "specialty": "General Surgery",
-      "experience": "20 years",
-      "registration_number": "1718003417",
-      "image": "https://i.ibb.co/S7HMHVCQ/doctor4.jpg"
-    },
-    {
-      "id": "doc005",
-      "name": "Dr. Md. Shafiqul Islam",
-      "education": "MBBS (1984)",
-      "specialty": "Pathology",
-      "experience": "40 years",
-      "registration_number": "1711061814",
-      "image": "https://i.ibb.co/QFm2J8qt/doctor5.jpg"
-    },
-    {
-      "id": "doc006",
-      "name": "Dr. Most. Nuri Zunnatul Fardous",
-      "education": "MBBS",
-      "specialty": "Obstetrics & Gynecology",
-      "experience": "20 years",
-      "registration_number": "1711069461",
-      "image": "https://i.ibb.co/xK0bXZQ3/doctor6.jpg"
-    },
-    {
-      "id": "doc007",
-      "name": "Dr. Rezaul Alam",
-      "education": "MBBS",
-      "specialty": "Orthopedic Surgery",
-      "experience": "18 years",
-      "registration_number": "1711000230",
-      "image": "https://i.ibb.co/s9pzTLgW/doctor7.jpg"
-    },
-    {
-      "id": "doc008",
-      "name": "Dr. Md. Abdul Hye",
-      "education": "MBBS (1995), MD (Pediatrics)",
-      "specialty": "Pediatrics",
-      "experience": "30 years",
-      "registration_number": "1714363809",
-      "image": "https://i.ibb.co/Z6wjj2mZ/doctor8.jpg"
-    },
-    {
-      "id": "doc009",
-      "name": "Dr. Md. Tohidur Rahaman",
-      "education": "BDS (2009)",
-      "specialty": "Dentistry",
-      "experience": "15 years",
-      "registration_number": "1718505414",
-      "image": "https://i.ibb.co/b5JfpYCz/doctor9.jpg"
-    },
-    {
-      "id": "doc010",
-      "name": "Dr. Bappy Kumer Biswas",
-      "education": "MBBS (2010)",
-      "specialty": "Emergency Medicine",
-      "experience": "14 years",
-      "registration_number": "1722095885",
-      "image": "https://i.ibb.co/vxg9z8D2/doctor10.jpg"
-    },
-    {
-      "id": "doc011",
-      "name": "Dr. Md. Masud Rana",
-      "education": "MBBS (2013)",
-      "specialty": "General Medicine",
-      "experience": "11 years",
-      "registration_number": "1750712695",
-      "image": "https://i.ibb.co/jktX14PX/doctor.jpg"
-    },
-    {
-      "id": "doc012",
-      "name": "Dr. Debashis Biswas",
-      "education": "MBBS",
-      "specialty": "Internal Medicine",
-      "experience": "10 years",
-      "registration_number": "1717306650",
-      "image": "https://i.ibb.co/n855dtVW/doctor12.jpg"
-    }
-  ]
-  
+  {
+    "id": "doc001",
+    "name": "Dr. Ayesha Julekha",
+    "education": "MBBS",
+    "specialty": "General Medicine",
+    "experience": "Extensive experience",
+    "registration_number": "1715171009",
+    "image": "https://i.ibb.co/nNc0pw97/doctor1.jpg",
+    "availability": "Available"
+  },
+  {
+    "id": "doc002",
+    "name": "Dr. Md. Hassan Jamil Hedyatullah",
+    "education": "MBBS, MS (Orthopedics)",
+    "specialty": "Orthopedic Surgery",
+    "experience": "Extensive experience",
+    "registration_number": "1711014088",
+    "image": "https://i.ibb.co/jZ5xYKg7/doctor2.jpg",
+    "availability": "Not Available"
+  },
+  {
+    "id": "doc003",
+    "name": "Dr. Nazir Ahmed",
+    "education": "MBBS",
+    "specialty": "Emergency Medicine",
+    "experience": "Vast experience",
+    "registration_number": "1712023521",
+    "image": "https://i.ibb.co/wNj0PV7Y/doctor3.jpg",
+    "availability": "Available"
+  },
+  {
+    "id": "doc004",
+    "name": "Dr. Md. Nadeem Sarkar",
+    "education": "MBBS",
+    "specialty": "General Surgery",
+    "experience": "Years of experience",
+    "registration_number": "1718003417",
+    "image": "https://i.ibb.co/S7HMHVCQ/doctor4.jpg",
+    "availability": "Not Available"
+  },
+  {
+    "id": "doc005",
+    "name": "Dr. Md. Shafiqul Islam",
+    "education": "MBBS",
+    "specialty": "Pathology",
+    "experience": "Extensive experience",
+    "registration_number": "1711061814",
+    "image": "https://i.ibb.co/QFm2J8qt/doctor5.jpg",
+    "availability": "Available"
+  },
+  {
+    "id": "doc006",
+    "name": "Dr. Most. Nuri Zunnatul Fardous",
+    "education": "MBBS",
+    "specialty": "Obstetrics & Gynecology",
+    "experience": "Years of experience",
+    "registration_number": "1711069461",
+    "image": "https://i.ibb.co/xK0bXZQ3/doctor6.jpg",
+    "availability": "Available"
+  },
+  {
+    "id": "doc007",
+    "name": "Dr. Rezaul Alam",
+    "education": "MBBS",
+    "specialty": "Orthopedic Surgery",
+    "experience": "Experienced",
+    "registration_number": "1711000230",
+    "image": "https://i.ibb.co/s9pzTLgW/doctor7.jpg",
+    "availability": "Not Available"
+  },
+  {
+    "id": "doc008",
+    "name": "Dr. Md. Abdul Hye",
+    "education": "MBBS, MD (Pediatrics)",
+    "specialty": "Pediatrics",
+    "experience": "Experienced",
+    "registration_number": "1714363809",
+    "image": "https://i.ibb.co/Z6wjj2mZ/doctor8.jpg",
+    "availability": "Available"
+  },
+  {
+    "id": "doc009",
+    "name": "Dr. Md. Tohidur Rahaman",
+    "education": "BDS",
+    "specialty": "Dentistry",
+    "experience": "Vast experience",
+    "registration_number": "1718505414",
+    "image": "https://i.ibb.co/b5JfpYCz/doctor9.jpg",
+    "availability": "Available"
+  },
+  {
+    "id": "doc010",
+    "name": "Dr. Bappy Kumer Biswas",
+    "education": "MBBS",
+    "specialty": "Emergency Medicine",
+    "experience": "Experienced",
+    "registration_number": "1722095885",
+    "image": "https://i.ibb.co/vxg9z8D2/doctor10.jpg",
+    "availability": "Not Available"
+  },
+  {
+    "id": "doc011",
+    "name": "Dr. Md. Masud Rana",
+    "education": "MBBS",
+    "specialty": "General Medicine",
+    "experience": "Experienced",
+    "registration_number": "1750712695",
+    "image": "https://i.ibb.co/jktX14PX/doctor.jpg",
+    "availability": "Available"
+  },
+  {
+    "id": "doc012",
+    "name": "Dr. Debashis Biswas",
+    "education": "MBBS",
+    "specialty": "Internal Medicine",
+    "experience": "Experienced",
+    "registration_number": "1717306650",
+    "image": "https://i.ibb.co/n855dtVW/doctor12.jpg",
+    "availability": "Not Available"
+  }
+]
