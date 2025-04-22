@@ -1,122 +1,146 @@
 [
   {
-    "id": "doc001",
+    "id": 1,
     "name": "Dr. Ayesha Julekha",
     "education": "MBBS",
     "specialty": "General Medicine",
-    "experience": "Extensive experience",
+    "experience": "40 years+ experience",
     "registration_number": "1715171009",
     "image": "https://i.ibb.co/nNc0pw97/doctor1.jpg",
-    "availability": "Available"
+    "availability": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
+    "working_place": "Dhaka Medical College",
+    "consultation_fee": 1200
   },
   {
-    "id": "doc002",
+    "id": 2,
     "name": "Dr. Md. Hassan Jamil Hedyatullah",
     "education": "MBBS, MS (Orthopedics)",
     "specialty": "Orthopedic Surgery",
-    "experience": "Extensive experience",
+    "experience": "25 years+ experience",
     "registration_number": "1711014088",
     "image": "https://i.ibb.co/jZ5xYKg7/doctor2.jpg",
-    "availability": "Not Available"
+    "availability": ["Sun", "Tue", "Thu"],
+    "working_place": "Chittagong Medical College",
+    "consultation_fee": 1500
   },
   {
-    "id": "doc003",
+    "id": 3,
     "name": "Dr. Nazir Ahmed",
     "education": "MBBS",
     "specialty": "Emergency Medicine",
-    "experience": "Vast experience",
+    "experience": "15 years+ experience",
     "registration_number": "1712023521",
     "image": "https://i.ibb.co/wNj0PV7Y/doctor3.jpg",
-    "availability": "Available"
+    "availability": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "working_place": "Rajshahi Medical College",
+    "consultation_fee": 1000
   },
   {
-    "id": "doc004",
+    "id": 4,
     "name": "Dr. Md. Nadeem Sarkar",
     "education": "MBBS",
     "specialty": "General Surgery",
-    "experience": "Years of experience",
+    "experience": "20 years+ experience",
     "registration_number": "1718003417",
     "image": "https://i.ibb.co/S7HMHVCQ/doctor4.jpg",
-    "availability": "Not Available"
+    "availability": ["Sat", "Mon", "Wed"],
+    "working_place": "Sylhet MAG Osmani Medical College",
+    "consultation_fee": 1300
   },
   {
-    "id": "doc005",
+    "id": 5,
     "name": "Dr. Md. Shafiqul Islam",
     "education": "MBBS",
     "specialty": "Pathology",
-    "experience": "Extensive experience",
+    "experience": "40 years+ experience",
     "registration_number": "1711061814",
     "image": "https://i.ibb.co/QFm2J8qt/doctor5.jpg",
-    "availability": "Available"
+    "availability": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
+    "working_place": "Mymensingh Medical College",
+    "consultation_fee": 1100
   },
   {
-    "id": "doc006",
+    "id": 6,
     "name": "Dr. Most. Nuri Zunnatul Fardous",
     "education": "MBBS",
     "specialty": "Obstetrics & Gynecology",
-    "experience": "Years of experience",
+    "experience": "20 years+ experience",
     "registration_number": "1711069461",
     "image": "https://i.ibb.co/xK0bXZQ3/doctor6.jpg",
-    "availability": "Available"
+    "availability": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    "working_place": "Barisal Sher-e-Bangla Medical College",
+    "consultation_fee": 900
   },
   {
-    "id": "doc007",
+    "id": 7,
     "name": "Dr. Rezaul Alam",
     "education": "MBBS",
     "specialty": "Orthopedic Surgery",
-    "experience": "Experienced",
+    "experience": "18 years+ experience",
     "registration_number": "1711000230",
     "image": "https://i.ibb.co/s9pzTLgW/doctor7.jpg",
-    "availability": "Not Available"
+    "availability": ["Sun", "Tue"],
+    "working_place": "Rangpur Medical College",
+    "consultation_fee": 1400
   },
   {
-    "id": "doc008",
+    "id": 8,
     "name": "Dr. Md. Abdul Hye",
     "education": "MBBS, MD (Pediatrics)",
     "specialty": "Pediatrics",
-    "experience": "Experienced",
+    "experience": "30 years+ experience",
     "registration_number": "1714363809",
     "image": "https://i.ibb.co/Z6wjj2mZ/doctor8.jpg",
-    "availability": "Available"
+    "availability": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
+    "working_place": "Comilla Medical College",
+    "consultation_fee": 1250
   },
   {
-    "id": "doc009",
+    "id": 9,
     "name": "Dr. Md. Tohidur Rahaman",
     "education": "BDS",
     "specialty": "Dentistry",
-    "experience": "Vast experience",
+    "experience": "15 years+ experience",
     "registration_number": "1718505414",
     "image": "https://i.ibb.co/b5JfpYCz/doctor9.jpg",
-    "availability": "Available"
+    "availability": ["Sun", "Mon", "Tue", "Wed"],
+    "working_place": "Khulna Medical College",
+    "consultation_fee": 800
   },
   {
-    "id": "doc010",
+    "id": 10,
     "name": "Dr. Bappy Kumer Biswas",
     "education": "MBBS",
     "specialty": "Emergency Medicine",
-    "experience": "Experienced",
+    "experience": "14 years+ experience",
     "registration_number": "1722095885",
     "image": "https://i.ibb.co/vxg9z8D2/doctor10.jpg",
-    "availability": "Not Available"
+    "availability": ["Mon", "Tue", "Wed", "Thu"],
+    "working_place": "Faridpur Medical College",
+    "consultation_fee": 950
   },
   {
-    "id": "doc011",
+    "id": 11,
     "name": "Dr. Md. Masud Rana",
     "education": "MBBS",
     "specialty": "General Medicine",
-    "experience": "Experienced",
+    "experience": "11 years+ experience",
     "registration_number": "1750712695",
     "image": "https://i.ibb.co/jktX14PX/doctor.jpg",
-    "availability": "Available"
+    "availability": ["Sat", "Sun", "Mon", "Tue", "Wed"],
+    "working_place": "Bogura Medical College",
+    "consultation_fee": 1150
   },
   {
-    "id": "doc012",
+    "id": 12,
     "name": "Dr. Debashis Biswas",
     "education": "MBBS",
     "specialty": "Internal Medicine",
-    "experience": "Experienced",
+    "experience": "10 years+ experience",
     "registration_number": "1717306650",
     "image": "https://i.ibb.co/n855dtVW/doctor12.jpg",
-    "availability": "Not Available"
+    "availability": ["Mon", "Wed", "Fri"],
+    "working_place": "Dinajpur Medical College",
+    "consultation_fee": 1050
   }
 ]
