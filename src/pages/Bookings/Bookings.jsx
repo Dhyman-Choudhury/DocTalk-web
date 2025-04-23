@@ -1,18 +1,27 @@
 import React, { useEffect, useState } from 'react';
 
-import { getBookings, removeBookings } from '../../utilities/addToDB';
+import { addToBookings, getBookings, removeBookings } from '../../utilities/addToDB';
 import Booking from '../Booking/Booking';
 import EmptyState from '../EmptyState/EmptyState';
 import { toast, ToastContainer } from 'react-toastify';
 import Recharts from '../Recharts/Recharts';
 
 const Bookings = () => {
+    
     const [showDoctors, setShowDoctors] = useState([])
 
     useEffect(() => {
         const savedDoctors = getBookings();
         setShowDoctors(savedDoctors);
+        toast("Appointment completed!")
+       
+        
     }, []);
+
+    // showDoctors.length++? toast("Appointment completed!"):''
+   
+    
+   
     
 
     const handleDelete = (doctor)=>{
@@ -25,6 +34,7 @@ const Bookings = () => {
     if(showDoctors.length<1) return <EmptyState/>
     return (
         <div className='min-h-[calc(100vh-280px)] bg-[#f4eff6] py-10 '>
+            <ToastContainer/>
             <div className='max-w-10/12 py-10 mx-auto bg-white rounded-xl'>
                     <Recharts showDoctors={showDoctors}></Recharts>
             </div>
@@ -36,7 +46,7 @@ const Bookings = () => {
                 showDoctors.map(doctor => <Booking key={doctor.id} doctor={doctor} handleDelete={handleDelete} ></Booking>)
                 
             }
-             <ToastContainer/>
+             
         </div>
     );
 };

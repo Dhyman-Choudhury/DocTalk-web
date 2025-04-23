@@ -14,7 +14,7 @@ const DoctorDetails = () => {
 
     const handleAddToDB =()=>{
         addToBookings(viewDoctor)
-        toast.success('Appointment completed')
+       
     }
     
    
@@ -59,15 +59,10 @@ const DoctorDetails = () => {
                 <p className='text-gray-900 mb-3 text-xl font-semibold px-8'>Availability</p>
                 <hr className='border-dashed border-gray-400 w-[95%] mx-auto my-2' />
                 <div className='flex justify-center'>
-                    <NavLink 
-                        to='/bookings'
-                        
-                    >
+                    <NavLink to='/bookings'>
                         <button 
                         onClick={handleAddToDB}
-                        className='btn rounded-full px-[500px] my-5 bg-blue-700 text-white' >
-                            
-                            Book Appointment Now
+                        className='btn rounded-full px-[500px] my-5 bg-blue-700 text-white' > Book Appointment Now
                         </button>
                     </NavLink>
                     
