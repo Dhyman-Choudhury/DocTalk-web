@@ -5,6 +5,7 @@ import Recharts from '../Recharts/Recharts';
 
 const Booking = ({ doctor, handleDelete }) => {
     const { id, name, education, specialty, consultation_fee } = doctor || {};
+    
     return (
         <div>
             

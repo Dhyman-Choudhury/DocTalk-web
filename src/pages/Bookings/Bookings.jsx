@@ -5,6 +5,8 @@ import Booking from '../Booking/Booking';
 import EmptyState from '../EmptyState/EmptyState';
 import { toast, ToastContainer } from 'react-toastify';
 import Recharts from '../Recharts/Recharts';
+import { useLocation } from 'react-router';
+
 
 const Bookings = () => {
     
@@ -12,16 +14,10 @@ const Bookings = () => {
 
     useEffect(() => {
         const savedDoctors = getBookings();
-        setShowDoctors(savedDoctors);
-        toast("Appointment completed!")
-       
-        
+        setShowDoctors(savedDoctors);  
+        toast.success(`Appointment completed!`)
     }, []);
 
-    // showDoctors.length++? toast("Appointment completed!"):''
-   
-    
-   
     
 
     const handleDelete = (doctor)=>{
@@ -37,6 +33,7 @@ const Bookings = () => {
             <ToastContainer/>
             <div className='max-w-10/12 py-10 mx-auto bg-white rounded-xl'>
                     <Recharts showDoctors={showDoctors}></Recharts>
+                    
             </div>
             <div className='text-center py-10'>
                 <h3 className='text-5xl font-bold text-gray-900 mb-5'>My Today Appointments</h3>
