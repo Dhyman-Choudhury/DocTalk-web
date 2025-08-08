@@ -1,9 +1,9 @@
-# Medical Appointment Booking Application
+# DocTalk
 
 ## Description
 A React-based web application designed to help users schedule and manage doctor appointments efficiently. The app features interactive UI, multi-page routing, data persistence with localStorage, animated counters, and data visualization with charts — all following a pixel-perfect Figma design.
 
-**Live Demo:** [View Project Live](YOUR_LIVE_LINK_HERE)
+**Live Demo:** [https://splendorous-bublanina-6eb877.netlify.app]
 
 ---
 
